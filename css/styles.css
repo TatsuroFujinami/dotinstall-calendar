@@ -1,0 +1,53 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #eee;
+  margin: 0 auto 0;
+}
+
+thead,
+tfoot {
+  background: #eee;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+tbody td:first-child {
+  color: red;
+}
+
+tbody td:last-child {
+  color: blue;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+td.disabled {
+  opacity: 0.3;
+}
+
+td.today {
+  font-weight: bold;
+}
+
+#prev,
+#next,
+#today {
+  cursor: pointer;
+  user-select: none;
+}
